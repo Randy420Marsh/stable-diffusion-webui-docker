@@ -1,5 +1,12 @@
 # Stable Diffusion WebUI Docker
 
+TLDR:
+
+docker compose --profile download up --build
+# wait until its done, then:
+docker compose --profile [ui] up --build
+# where [ui] is one of: invoke | auto | auto-cpu | comfy | comfy-cpu
+
 Run Stable Diffusion on your machine with a nice UI without any hassle!
 
 ## Setup & Usage
