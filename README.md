@@ -1,6 +1,8 @@
 # Stable Diffusion WebUI Docker
 
 TLDR:
+git clone https://github.com/Randy420Marsh/stable-diffusion-webui-docker.git
+cd stable-diffusion-webui-docker
 
 docker compose --profile download up --build
 # wait until its done, then:
